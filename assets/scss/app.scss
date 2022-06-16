@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.title {
+    @apply text-yellow-300;
+
+    span {
+        @apply text-red-900;
+    }
+}
